@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>react-boilerplate</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+  </head>
+  <body>
+      <div id="todo-app">
+
+                <div class="container">
+                    <header>
+                        <h1>todos</h1>
+                    </header>
+                    <section class="main-area">
+                        <div class="todo-input-area">
+                            <input class="check-all-todos" type="checkbox" ></input>
+                            <input class="todo-input" type="text" placeholder="What needs to be done?"></input>
+                        </div>
+                        <ul class="todo-list">
+                            <li class="todo-list-item">
+                                <div class="todo-list-item-view-box">
+                                    <input class="todo-list-item-check" type="checkbox"></input>
+                                    <span class="todo-list-item-label">aiueo</span>
+                                    <button class="todo-list-item-remove" type="button"></button>
+                                </div>
+                                <div class="todo-list-item-edit-box">
+                                    <input type="text"></input>
+                                </div>
+                            </li>
+                            <li class="todo-list-item completed">
+                                <div class="todo-list-item-view-box">
+                                    <input class="todo-list-item-check" type="checkbox"></input>
+                                    <span class="todo-list-item-label">kakiku</span>
+                                    <button class="todo-list-item-remove" type="button"></button>
+                                </div>
+                                <div class="todo-list-item-edit-box">
+                                    <input type="text"></input>
+                                </div>
+                            </li>
+                            <li class="todo-list-item editing">
+                                <div class="todo-list-item-view-box">
+                                    <input class="todo-list-item-check" type="checkbox"></input>
+                                    <span class="todo-list-item-label">kakiku</span>
+                                    <button class="todo-list-item-remove" type="button"></button>
+                                </div>
+                                <div class="todo-list-item-edit-box">
+                                    <input type="text"></input>
+                                </div>
+                            </li>
+                        </ul>
+                        <footer>
+                            <span>1 item left</span>
+                            <ul class="filter-list">
+                                <li class="filter-list-item">
+                                    <a href="#all" class="selected">All</a>
+                                </li>
+                                <li class="filter-list-item">
+                                    <a href="#active" >Active</a>
+                                </li>
+                                <li class="filter-list-item">
+                                    <a href="#completed" >Completed</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="clear-completed">clear completed</button>
+                        </footer>
+                    </section>
+                </div>
+            </div>
+  </body>
+</html>
